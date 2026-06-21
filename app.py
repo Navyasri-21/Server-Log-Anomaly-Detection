@@ -15,7 +15,7 @@ st.markdown("---")
 
 # Load Model
 
-model = joblib.load("model.pkl")
+model = joblib.load("server_log_anomaly_model.pkl")
 
 uploaded_file = st.file_uploader(
 "Upload Log CSV File",
