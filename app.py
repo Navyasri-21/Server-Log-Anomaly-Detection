@@ -74,7 +74,7 @@ if missing_columns:
 # Feature Engineering (must match training notebook exactly)
 # -------------------------------------------------
 try:
-    df["timestamp"] = pd.to_datetime(df["timestamp"])
+    df["timestamp"] = pd.to_datetime(df["timestamp"], format="mixed")
     df["hour"] = df["timestamp"].dt.hour
     df["day"] = df["timestamp"].dt.day
     df["month"] = df["timestamp"].dt.month
