@@ -357,8 +357,6 @@ Interested in:
 - Data Science
 - Machine Learning
 - Artificial Intelligence
-- MLOps
-- Cybersecurity Analytics
 
 ---
 
